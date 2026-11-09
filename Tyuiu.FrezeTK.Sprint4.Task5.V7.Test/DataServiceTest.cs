@@ -1,0 +1,25 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Tyuiu.FrezeTK.Sprint4.Task5.V7.Lib;
+
+namespace Tyuiu.FrezeTK.Sprint4.Task5.V7.Test
+{
+    [TestClass]
+    public class DataServiceTest
+    {
+        [TestMethod]
+        public void CheckCalculateValid()
+        {
+            int[,] matrix = new int[5, 5]
+            {
+                { -1, 2, -3, 4, 5 },
+                { 6, -7, 0, 1, -2 },
+                { 3, 4, -5, 6, 7 },
+                { -6, 1, 2, -3, 4 },
+                { 5, 6, 7, -1, 0 }
+            };
+
+            int res = DataService.Calculate(matrix);
+            Assert.AreEqual(8, res);
+        }
+    }
+}
