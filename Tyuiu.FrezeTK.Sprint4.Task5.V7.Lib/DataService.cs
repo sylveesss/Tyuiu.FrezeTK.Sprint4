@@ -1,9 +1,9 @@
 ﻿using System;
 using tyuiu.cources.programming.interfaces.Sprint4;
 
-namespace Tyuiu.FrezeTK.Sprint4.Task4.V30.Lib
+namespace Tyuiu.FrezeTK.Sprint4.Task5.V7.Lib
 {
-    public class DataService : ISprint4Task4V30
+    public class DataService : ISprint4Task5V7
     {
         public int[,] Calculate(int[,] matrix)
         {

@@ -1,7 +1,7 @@
 ﻿using System;
-using Tyuiu.FrezeTK.Sprint4.Task4.V30.Lib;
+using Tyuiu.FrezeTK.Sprint4.Task5.V7.Lib;
 
-namespace Tyuiu.FrezeTK.Sprint4.Task4.V30
+namespace Tyuiu.FrezeTK.Sprint4.Task5.V7
 {
     internal class Program
     {

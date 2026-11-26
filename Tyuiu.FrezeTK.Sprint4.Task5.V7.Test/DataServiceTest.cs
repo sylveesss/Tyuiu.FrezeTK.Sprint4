@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tyuiu.FrezeTK.Sprint4.Task4.V30.Lib;
+using Tyuiu.FrezeTK.Sprint4.Task5.V7.Lib;
 
-namespace Tyuiu.FrezeTK.Sprint4.Task4.V30.Test
+namespace Tyuiu.FrezeTK.Sprint4.Task5.V7.Test
 {
     [TestClass]
     public sealed class DataServiceTest
